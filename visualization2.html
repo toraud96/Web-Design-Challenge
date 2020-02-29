@@ -1,0 +1,79 @@
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<title>Lattitude Homepage</title>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./landing.html"><span class="latitude">Latitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                        <span class="caret"></span></button> 
+                        <ul class="dropdown-menu">
+                            <li><a href="./visualization-image-1.html">Latitude vs. Max Temperature</a></li>
+                            <li><a href="./visualization-image-2.html">Latitude vs. Humidity</a></li>
+                            <li><a href="./visualization-image-3.html">Latitude vs. Cloudiness</a></li>
+                            <li><a href="./visualization-image-4.html">Latitude vs. Wind Speed</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-link" href="./Comparisons.html"><span class="c-d">Comparison</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./Data.html"><span class="c-d">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <div class="box">
+                        <div class="page-header">
+                            <h1 class="title">Humidity</h1>
+                        </div>
+                        <div class="box">
+                            <img src="Resources\assets\images\Fig2.png" alt="City Latitude vs. Humidity" height="280" width="280" align="left">
+                            <p class="category">Overall humidity is well spread out throughout the different degrees of Latitude. Interestingly it seems that there is greater variance in the northern hemisphere than the southern in % of humidity. This may be due to the tilt of the earth at the time of the year this data was gathered.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="box">
+                        <div class="page-header">
+                            <h1 class="title">Visualizations</h1>
+                        </div>
+                        <div class="box">
+                           <a href="./visualization-image-1.html"><img src="Resources\assets\images\Fig1.png" alt="Latitude vs. Max Temperature" height="160" width="160"></a>
+                           <a href="./visualization-image-2.html"><img src="Resources\assets\images\Fig2.png" alt="Latitude vs. Humidity" height="160" width="160"></a>
+                           <a href="./visualization-image-3.html"><img src="Resources\assets\images\Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
+                           <a href="./visualization-image-4.html"><img src="Resources\assets\images\Fig4.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
